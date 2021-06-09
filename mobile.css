@@ -1,0 +1,20 @@
+@media screen and(max-width:1285px){
+  .navigation{
+    flex-direction:column;
+    margin-bottom:23px;
+  }
+  .nav-left{
+    flex-direction:column;
+  }
+  .content-right{
+    display:none;
+  }
+  .year-box{
+    top:0;
+    font-size:11px;
+    display:flex;
+  }
+  .year-box div{
+    margin:0;
+  }
+}

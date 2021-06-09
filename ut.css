@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+:root{
+  --main-bg-color:brown;
+  --font1:'Baloo Bhaina 2', cursive;
+  --font2:'Roboto', sans-serif;
+}
+.font1{
+  font-family:var(--font1);
+}
+.font2{
+  font-family:var(--font2);
+}
+.max-width-1{
+  width:85vw;
+}
+.max-width-2{
+  width:65vw;
+}
+.m-auto{
+  margin:auto;
+}
+
+.btn{
+  padding:0 20px;
+  //padding-top:3px;
+  border:1.5px solid black;
+  border-radius:7px;
+  font-family:var(--font1);
+  font-size:15px;
+  cursor:pointer;
+  transition:0.5s;
+}
+.btn:hover{
+  color:white;
+  background: #9900cc;
+}
+.form-input{
+  padding:1.5px 4px;
+  //padding-top:3px;
+  border:1.5px solid black;
+  border-radius:4px;
+  margin:0 14px;
+  font-family:var(--font1);
+}
+
+.form-box input,textarea{
+  width:54vw;
+  padding:9px 7px;
+  margin:7px 0;
+  border:2px solid grey;
+  border-radius:5px;
+}
+
+
+
+
+
+

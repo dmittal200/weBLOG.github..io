@@ -1,0 +1,19 @@
+.contact-content{
+  height:330px;
+  //background-color:#d9e6f2;
+  //display:flex;
+  padding:0 75px;
+  position:relative; 
+  height:35vw;
+}
+.contact-content::after{
+  content:"";
+  background-image: url('mb.jpg');
+  position:absolute;
+  top:0;
+  width:88%;
+  height:inherit;
+  opacity:0.18;
+  border-radius:12px;
+  z-index:-1;
+}
